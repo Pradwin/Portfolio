@@ -159,3 +159,12 @@ h1 {
   margin: auto;
   font-size: 1.5rem;
 }
+.hidden{
+  opacity:0;
+  transform:translate(-100%);
+  transition: all 1.5s;
+}
+.show{
+  opacity:1;
+  transform:translate(0);
+}
