@@ -17,6 +17,7 @@ nav {
   justify-content: space-around;
   height: 80px;
   background-color: rgb(23, 4, 61);
+  z-index:1;
 }
 nav .left {
   font-size: 1.5rem;
