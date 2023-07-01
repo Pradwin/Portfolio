@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(4, 11, 30);
+  color: white;
+  font-family: sans-serif;
+}
+nav {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: rgb(23, 4, 61);
+}
+nav .left {
+  font-size: 1.5rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: 0.25 ease-in;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid white;
+  transition: 0.25 ease-out;
+}
+main hr {
+  border: 0;
+  background-color: #9c97f1;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin-top: 100px;
+}
+.firstSection > div {
+  width: 40%;
+}
+.firstSection .leftSection {
+  font-size: 3rem;
+  margin: auto;
+}
+.buttons {
+  padding: 50px 0;
+}
+.btn {
+  padding: 12px;
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.firstSection .rightSection img {
+  width: 80%;
+}
+.purple {
+  color: purple;
+}
+#element {
+  color: purple;
+}
+.text-gray {
+  color: gray;
+  font-size: 1.5rem;
+}
+.secondSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+  border: 2px solid white;
+  margin: 50px 60px;
+  padding: 40px;
+  border-radius: 20px;
+}
+.secondSection > div {
+  width: 40%;
+}
+
+.secondSection .rightSection img {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.layout {
+  max-width: 80vw;
+  margin: auto;
+}
+h1 {
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+}
+
+.ThirdSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+  border: 2px solid white;
+  margin: 50px 60px;
+  padding: 40px;
+  border-radius: 20px;
+}
+.ThirdSection .rightSection img {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  height:300px;
+}
+.ThirdSection > div {
+  width: 40%;
+}
+.FourthSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+  border: 2px solid white;
+  margin: 50px 60px;
+  padding: 40px;
+  border-radius: 20px;
+}
+.FourthSection .rightSection img {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  height:300px;
+}
+.FourthSection > div {
+  width: 40%;
+}
+.leftSection {
+  margin: auto;
+  font-size: 1.5rem;
+}
