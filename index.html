@@ -13,11 +13,11 @@
         <div class="left">Pradwin's Portfolio</div>
         <div class="right">
           <ul>
-            <li><a href="#index">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skill">Skill</a></li>
-            <li><a href="#project">Projects</a></li>
-            <li><a href="#contact">Contact me</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Skill</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact me</a></li>
           </ul>
         </div>
       </nav>
@@ -28,8 +28,8 @@
           Hello,my name is <span class="purple">Pradwin</span>
           <div>I am passionate <span id="element"></span></div>
           <div class="buttons">
-            <a class="btn" href="/4MW20CS074_SHERIGAR_PRADWIN_MADHAVA.pdf" download>Resume download</a>
-            <a class="btn" target="_blank" href="https://github.com/Pradwin">Visit Github</a>
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
           </div>
         </div>
         <div class="rightSection">
@@ -42,7 +42,7 @@
         <span class="text-gray">School</span>
       </div>
       <section class="secondSection hidden">
-        <div class="leftSection"><span id="element1">"I did my 10th in St Xavier's high school Naigaon(west) and secured 85.4%"</span></div>
+        <div class="leftSection"><span id="element1"></span></div>
         <div class="rightSection">
             <img class="school" src="images/School.jpg" alt="">
         </div>
@@ -51,7 +51,7 @@
         <span class="text-gray">College</span>
       </div>
       <section class="ThirdSection hidden">
-        <div class="leftSection"><span id="element2">I did my 12th in Milagres PU college Kallianpur and secured 86.16%</span></div>
+        <div class="leftSection"><span id="element2"></span></div>
         <div class="rightSection">
             <img class="pu" src="images/pu.png" alt="">
         </div>
@@ -60,7 +60,7 @@
         <span class="text-gray">Engineering</span>
       </div>
       <section class="FourthSection hidden">
-        <div class="leftSection"><span id="element3">Currently I am doing my engineering in SMVITM.I have a cgpa of 8.3</span></div>
+        <div class="leftSection"><span id="element3"></span></div>
         <div class="rightSection">
             <img class="eng" src="images/eng.jpg" alt="">
         </div>
@@ -69,8 +69,20 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#element", {
-        strings: ["Student.", "Web Developer.","Programmer.", "Gamer."],
+        strings: ["Student.", "Web Developer.", "Gamer."],
         typeSpeed: 120,
+      });
+      var typed = new Typed("#element1", {
+        strings: ["I did my 10th in St xaviers high school and secured 85.4%"],
+        typeSpeed: 30,
+      });
+      var typed = new Typed("#element2", {
+        strings: ["I did my 12th in Milagres PU college kallianpur and secured 86.16%"],
+        typeSpeed: 30,
+      });
+      var typed = new Typed("#element3", {
+        strings: ["Currently I am doing my engineering in SMVITM."],
+        typeSpeed: 30,
       });
     </script>
   </body>

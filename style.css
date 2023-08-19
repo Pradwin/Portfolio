@@ -72,7 +72,6 @@ main hr {
   cursor: pointer;
   border-radius: 6px;
   font-size: 20px;
-  text-decoration: none;
 }
 
 .firstSection .rightSection img {
@@ -92,15 +91,16 @@ main hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 55vh;
+  height: 70vh;
   border: 2px solid white;
-  margin: 50px 80px;
+  margin: 50px 60px;
   padding: 40px;
   border-radius: 20px;
 }
 .secondSection > div {
   width: 40%;
 }
+
 .secondSection .rightSection img {
   width: 80%;
   padding: 10px;
@@ -120,9 +120,9 @@ h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 55vh;
+  height: 70vh;
   border: 2px solid white;
-  margin: 50px 80px;
+  margin: 50px 60px;
   padding: 40px;
   border-radius: 20px;
 }
@@ -140,9 +140,9 @@ h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 55vh;
+  height: 70vh;
   border: 2px solid white;
-  margin: 50px 80px;
+  margin: 50px 60px;
   padding: 40px;
   border-radius: 20px;
 }
