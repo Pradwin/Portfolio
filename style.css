@@ -17,7 +17,7 @@ nav {
   justify-content: space-around;
   height: 80px;
   background-color: rgb(23, 4, 61);
-  z-index:1;
+  z-index: 1;
 }
 nav .left {
   font-size: 1.5rem;
@@ -41,6 +41,7 @@ nav ul li a:hover {
   border-bottom: 2px solid white;
   transition: 0.25 ease-out;
 }
+
 main hr {
   border: 0;
   background-color: #9c97f1;
@@ -93,7 +94,7 @@ main hr {
   justify-content: space-around;
   align-items: center;
   height: 55vh;
-  border: 2px solid white;
+  background-color: rgb(64, 15, 72);
   margin: 50px 80px;
   padding: 40px;
   border-radius: 20px;
@@ -121,7 +122,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   height: 55vh;
-  border: 2px solid white;
+  background-color: rgb(64, 15, 72);
   margin: 50px 80px;
   padding: 40px;
   border-radius: 20px;
@@ -131,7 +132,7 @@ h1 {
   padding: 10px;
   border: 2px solid white;
   border-radius: 10px;
-  height:300px;
+  height: 300px;
 }
 .ThirdSection > div {
   width: 40%;
@@ -141,7 +142,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   height: 55vh;
-  border: 2px solid white;
+  background-color: rgb(64, 15, 72);
   margin: 50px 80px;
   padding: 40px;
   border-radius: 20px;
@@ -151,21 +152,226 @@ h1 {
   padding: 10px;
   border: 2px solid white;
   border-radius: 10px;
-  height:300px;
+  height: 300px;
 }
 .FourthSection > div {
   width: 40%;
 }
 .leftSection {
-  margin: auto;
   font-size: 1.5rem;
 }
-.hidden{
-  opacity:0;
-  transform:translate(-100%);
+.hidden {
+  opacity: 0;
+  transform: translate(-100%);
   transition: all 1.5s;
 }
-.show{
-  opacity:1;
-  transform:translate(0);
+.show {
+  opacity: 1;
+  transform: translate(0);
+}
+.FifthSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 110px 80px 110px 80px;
+  padding: 50px;
+  border-radius: 10px;
+  height: 80vh;
+  font-size: xx-large;
+}
+.FifthSection h3 {
+  margin-top: 80px;
+}
+.FifthSection h2 {
+  margin-bottom: 40px;
+}
+.SixthSection {
+  margin: 50px 80px;
+}
+.leftC {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+.leftC a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 0;
+  font-size: 2rem;
+  color: white;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: 0.25 ease-in;
+}
+.leftC a:hover {
+  border-bottom: 2px solid white;
+  transition: 0.25 ease-out;
+}
+.rightC img{
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.SixthSection h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
+.Contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 342px;
+  padding: 44px 0px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 913px) {
+  .bar {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .purple,
+  #element {
+    font-size: 1.5rem;
+  }
+  nav ul {
+    display: none;
+  }
+  nav {
+    flex-direction: row;
+    justify-content: start;
+    height: 10vh;
+    position: static;
+  }
+  nav .left {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+  .firstSection {
+    margin: 10px;
+    height: 40vh;
+  }
+  .firstSection .leftSection {
+    font-size: 1.5rem;
+  }
+  .firstSection .rightSection img {
+    width: 100%;
+    height: auto;
+  }
+  .firstSection .leftSection .buttons .btn {
+    margin: 5px 0px;
+    background-color: purple;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .firstSection .leftSection .buttons {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 20px 42px;
+  }
+  main .layout h1,
+  span,
+  .text-gray {
+    font-size: 20px;
+  }
+  .secondSection {
+    margin: 15px 20px;
+    height: 25vh;
+  }
+  .secondSection .rightSection img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+  }
+  .secondSection .leftSection #element1 {
+    font-size: 0.8rem;
+  }
+  .ThirdSection {
+    margin: 15px 20px;
+    height: 25vh;
+  }
+  .ThirdSection .rightSection img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+  }
+  .ThirdSection .leftSection #element2 {
+    font-size: 0.8rem;
+  }
+  .FourthSection {
+    margin: 15px 20px;
+    height: 25vh;
+  }
+  .FourthSection .rightSection img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+  }
+  .FourthSection .leftSection #element3 {
+    font-size: 0.8rem;
+  }
+  .FifthSection {
+    margin: 10px 0px;
+    height: 50vh;
+  }
+  .FifthSection h3 {
+    margin-top: 17px;
+    font-size: 1.3rem;
+  }
+  .FifthSection h2 {
+    margin-bottom: 17px;
+    font-size: 1.3rem;
+  }
+  .FifthSection .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .FifthSection .icons,
+  img {
+    width: 11%;
+    height: auto;
+  }
+  .SixthSection {
+    margin: 0px 0px;
+  }
+  .SixthSection .leftC {
+    display: flex;
+    flex-direction: column;
+    margin:0px 25px
+  }
+  .SixthSection h2 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+  }
+  .SixthSection .rightC img {
+    width: 85%;
+    height: 85%;
+  }
+  .Contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:13px;
+    border: none;
+  }
 }
