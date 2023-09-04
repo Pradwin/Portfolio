@@ -6,7 +6,8 @@
 body {
   background-color: rgb(4, 11, 30);
   color: white;
-  font-family: sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 nav {
   width: 100vw;
