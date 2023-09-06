@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 body {
   background-color: rgb(4, 11, 30);
   color: white;
-  font-family: sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 nav {
   width: 100vw;
@@ -57,9 +57,9 @@ main hr {
   height: 100vh;
   margin-top: 100px;
 }
-.info{
-  width:800px;
-  height:100px;
+.info {
+  width: 800px;
+  height: 100px;
 }
 .firstSection > div {
   width: 40%;
@@ -84,10 +84,10 @@ main hr {
 }
 
 .firstSection .rightSection img {
-position: absolute;
-width: 40%;
-top: 90px;
-left: 758px;
+  position: absolute;
+  width: 40%;
+  top: 90px;
+  left: 758px;
 }
 .purple {
   color: purple;
@@ -203,16 +203,16 @@ h1 {
   flex-direction: column;
   margin-right: 80px;
 }
-.FifthSection .icons{
+.FifthSection .icons {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.icon{
-  margin:0px 20px;
+.icon {
+  margin: 0px 20px;
 }
-.icons img{
-  margin:0px 20px;
+.icons img {
+  margin: 0px 20px;
 }
 .leftC a {
   text-decoration: none;
@@ -228,7 +228,7 @@ h1 {
   border-bottom: 2px solid white;
   transition: 0.25 ease-out;
 }
-.rightC img{
+.rightC img {
   padding: 10px;
   border: 2px solid white;
   border-radius: 10px;
@@ -249,28 +249,23 @@ h1 {
   border-radius: 10px;
 }
 @media only screen and (max-width: 768px) {
-  .icon{
-    width: auto;
-    margin:0px 20px;
+  .icon {
+    width: 80%;
+    margin: 0px 20px;
   }
-  .icon img{
-   width:10%;
+  .icon img {
+    width: 10%;
   }
-  .FifthSection .icon{
+  .FifthSection .icon {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
-  .info{
+  .info {
     position: relative;
-    width:330px;
-    height:96px;
-    top:-40px;
-  }
-  .bar {
-    display: block;
-    font-size: 2rem;
-    cursor: pointer;
+    width: 330px;
+    height: 96px;
+    top: -40px;
   }
   .purple,
   #element {
@@ -397,7 +392,7 @@ h1 {
   .SixthSection .leftC {
     display: flex;
     flex-direction: column;
-    margin:0px 25px
+    margin: 0px 25px;
   }
   .SixthSection h2 {
     text-align: center;
@@ -413,11 +408,11 @@ h1 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin:13px;
+    margin: 13px;
     border: none;
   }
 }
-@media only screen and (max-width: 468px) {
+/* @media only screen and (max-width: 468px) {
   .firstSection .rightSection img {
     position: absolute;
     width: 40%;
@@ -436,5 +431,38 @@ h1 {
     transition: 0.25 ease-in;
   }
 }
-
-
+@media only screen and (max-width: 1000px) {
+  .info {
+    position: relative;
+    width: 330px;
+    height: 96px;
+    top: -40px;
+  }
+  .firstSection .leftSection .buttons .btn {
+    margin: 5px 0px;
+    background-color: purple;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .firstSection .leftSection .buttons {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .firstSection .rightSection img {
+    position: absolute;
+    width: 58%;
+    height: auto;
+    top: 261px;
+    left: 368px;
+  }
+  .FifthSection,.secondSection,.ThirdSection,.FourthSection {
+    margin: 20px 20px;
+    height: 30vh;
+  }
+} */
