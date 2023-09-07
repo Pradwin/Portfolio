@@ -19,6 +19,7 @@ nav {
   height: 60px;
   background-color: rgb(23, 4, 61);
   z-index: 1;
+  box-shadow: 0 1px 10px rgba(164, 61, 164, 0.312);
 }
 nav .left {
   font-size: 1.5rem;
@@ -201,7 +202,7 @@ h1 {
 .leftC {
   display: flex;
   flex-direction: column;
-  margin-right: 80px;
+  margin-right: 200px;
 }
 .FifthSection .icons {
   display: flex;
@@ -219,8 +220,7 @@ h1 {
   color: white;
   margin: 10px 0;
   font-size: 2rem;
-  color: white;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
   border-bottom: 2px solid transparent;
   transition: 0.25 ease-in;
 }
@@ -232,6 +232,7 @@ h1 {
   padding: 10px;
   border: 2px solid white;
   border-radius: 10px;
+  width: 230px;
 }
 .SixthSection h2 {
   text-align: center;
@@ -245,10 +246,10 @@ h1 {
   justify-content: center;
   margin: 0px 342px;
   padding: 44px 0px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   border-radius: 10px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .icon {
     width: 80%;
     margin: 0px 20px;
@@ -295,8 +296,8 @@ h1 {
     position: absolute;
     width: 38%;
     height: auto;
-    top: 120px;
-    left: 250px;
+    top: -47px;
+    left: 425px;
   }
   .firstSection .leftSection .buttons .btn {
     margin: 5px 0px;
@@ -305,7 +306,7 @@ h1 {
     border: 1px solid white;
     cursor: pointer;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
     text-align: center;
   }
@@ -354,6 +355,7 @@ h1 {
   .FourthSection {
     margin: 15px 20px;
     height: 25vh;
+    margin-bottom: 35px;
   }
   .FourthSection .rightSection img {
     width: 100%;
@@ -392,16 +394,12 @@ h1 {
   .SixthSection .leftC {
     display: flex;
     flex-direction: column;
-    margin: 0px 25px;
+    margin: 0px 45px;
   }
   .SixthSection h2 {
     text-align: center;
     margin-bottom: 0;
     font-size: 0.8rem;
-  }
-  .SixthSection .rightC img {
-    width: 85%;
-    height: 85%;
   }
   .Contact {
     display: flex;
@@ -412,57 +410,99 @@ h1 {
     border: none;
   }
 }
-/* @media only screen and (max-width: 468px) {
-  .firstSection .rightSection img {
-    position: absolute;
-    width: 40%;
-    height: auto;
-    top: 122px;
-    left: 224px;
+@media only screen and (max-width: 800px) {
+  .SixthSection .leftC {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 145px;
+  }
+  .SixthSection .rightC img {
+    width: 66%;
   }
   .leftC a {
     text-decoration: none;
-    color: white;
-    margin: 10px 0;
-    font-size: 1rem;
+    font-size:15px;
+    width: 95px;
     color: white;
     padding-bottom: 5px;
     border-bottom: 2px solid transparent;
     transition: 0.25 ease-in;
   }
 }
-@media only screen and (max-width: 1000px) {
-  .info {
-    position: relative;
-    width: 330px;
-    height: 96px;
-    top: -40px;
+@media only screen and (max-width: 500px) {
+  .firstSection .rightSection img {
+    position: absolute;
+    width: 38%;
+    height: auto;
+    top: 121px;
+    left: 230px;
   }
-  .firstSection .leftSection .buttons .btn {
-    margin: 5px 0px;
-    background-color: purple;
-    color: white;
-    border: 1px solid white;
-    cursor: pointer;
-    border-radius: 6px;
-    font-size: 14px;
-    text-decoration: none;
-    text-align: center;
+  .FifthSection {
+    margin: 0px 0px;
+    height: 32vh;
   }
-  .firstSection .leftSection .buttons {
-    padding: 20px 0;
+  .FifthSection h3 {
+    margin-top: 17px;
+    font-size: 1.3rem;
+  }
+  .FifthSection h2 {
+    margin-bottom: 17px;
+    font-size: 1.3rem;
+  }
+  .SixthSection .leftC {
     display: flex;
     flex-direction: column;
+    margin: 0px 45px;
+  }
+  .SixthSection .rightC img {
+    width: 75%;
+  }
+  .leftC a {
+    text-decoration: none;
+    font-size:15px;
+    width: 95px;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: 0.25 ease-in;
+  }
+  
+}
+@media only screen and (max-width: 400px) {
+  .info {
+    position: relative;
+    width: 273px;
+    height: 96px;
+    top: -18px;
+    left: 1px;
+    font-size: 1rem;
+  }
+  .purple,
+  #element {
+    font-size:1rem;
   }
   .firstSection .rightSection img {
     position: absolute;
-    width: 58%;
+    width: 39%;
     height: auto;
-    top: 261px;
-    left: 368px;
+    top: 123px;
+    left: 210px;
   }
-  .FifthSection,.secondSection,.ThirdSection,.FourthSection {
-    margin: 20px 20px;
-    height: 30vh;
+  .SixthSection .leftC {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 25px;
   }
-} */
+  .SixthSection .rightC img {
+    width: 83%;
+  }
+  .leftC a {
+    text-decoration: none;
+    font-size:15px;
+    width: 95px;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: 0.25 ease-in;
+  }
+}
